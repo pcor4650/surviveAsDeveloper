@@ -1,26 +1,27 @@
 추천 terminal : iTerm2(Mac), cmder(윈도우)
 
 git에 대한 모든 환경설정 .gitconfig라는 파일 안에 저장
-git config --list : 모든 설정을 확인
-git config --global -e : 터미널에서 확인 가능
+ git config --list : 모든 설정을 확인
+ git config --global -e : 터미널에서 확인 가능
 
-터미널에서 vscode 실행방법 찾아봐야
+ 터미널에서 vscode 실행방법 찾아봐야
 
-git config --global core.editor "code --wait"
-git config --global core.editor "code"
+ git config --global core.editor "code --wait"
+ git config --global core.editor "code"
 
-git config --global user.name "pcor4650"
-git config --global user.email "pcor4650@gmail.com"
-git config user.name
+ git config --global user.name "pcor4650"
+ git config --global user.email "pcor4650@gmail.com"
+ git config user.name
 
-git config --global core.autocrlf true(window)/input(Mac)
+ git config --global core.autocrlf true(window)/input(Mac)
 
-git config --global alias.st status : git status를 git st명령어만 쳐도 되도록
+ git config --global alias.st status : git status를 git st명령어만 쳐도 되도록
 
 저장소에 올리고 싶지 않은 것들은 git ignore 
-echo *.log > .gitignore : .log파일은 언트래킹하도록
+ echo *.log > .gitignore : .log파일은 언트래킹하도록
 
-git diff 
+변경사항 확인
+ git diff 
 
 
 commit 된 git patch 파일 만드는 방법?
