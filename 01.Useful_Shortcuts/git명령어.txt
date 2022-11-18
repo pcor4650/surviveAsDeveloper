@@ -23,5 +23,16 @@ git에 대한 모든 환경설정 .gitconfig라는 파일 안에 저장
 변경사항 확인
  git diff 
 
+git patch 파일 만들고 적용하기
 
-commit 된 git patch 파일 만드는 방법?
+ commit의 patch 만들기
+  $ git format-patch -[commit count]
+ 
+ git patch 적용 
+  $ git am [patch file]
+ 
+ git 변경사항에 대한 patch 만들기
+  $ git diff > patchfile
+
+ patch 파일을 로컬의 unstaged 영역에 반영
+  $ patch -p1[number] < [patch file name]
