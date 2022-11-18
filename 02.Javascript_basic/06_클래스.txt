@@ -1,0 +1,32 @@
+클래스 정리
+링크 : https://www.youtube.com/watch?v=_DLhUBWsRtw
+
+
+클래스 : 조금더 연관있는 데이터를 묶어놓는 컨테이너 역할, 붕아빵의 틀, template, 정의만 한 것으로 메모리에 올라가지 않는다
+오브젝트 : 클래스의 인스턴스, 팥붕어빵 or 피자붕어빵
+
+1. 클래스 선언
+
+class Person {
+	//constructor
+	constructor(name, age) {
+		this.name = name;
+		this.age = age;
+	}
+	//methods
+	speak() {
+		console.log(`${this.name}: hello!`);
+	}
+	
+}
+
+2. Getter, Setter
+
+
+3. static 개념
+
+4. 상속, 다형성
+
+6. Class checking: instanceOf
+
+유용한 사이트 : JavaScript reference : https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference
