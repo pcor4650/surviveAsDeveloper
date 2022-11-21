@@ -1,0 +1,23 @@
+1. Edit
+ctrl + Enter :  커서 위치 아래 빈 행 삽입
+ctrl + Shift + Enter  :  커서 위치 위 빈 행 삽입
+Alt + 위/아래 : 커서가 위치한 행/ 선택한 행을 위아래로 이동 (여러 행 이동 가능)
+Alt + Shift + 위/아래 :커서가 위치한 행/ 선택한 행을 위아래로 이동 (여러 행 이동 가능) 
+
+2. Move / Scroll
+
+
+3. Choose scope
+
+4. 멀티 커서 / 복수 선택 / 직사각형 선택
+Alt + Ctrl + 위/아래 : 멀티커서를 위/아래로 
+Alt + 마우스 클릭 : 커서 중복 생성
+
+Ctrl + Shift + Alt + 위/아래/좌/우 : 직사각형 선택
+
+5. 열기 관련
+Crtl + Shift + N : 새로운 윈도우 열기
+Ctrl + Shift + W : 윈도우 닫기
+Ctrl + P : 폴더/ 워크 스페이스 내의 파일 열기
+Ctrl + , : 설정화면 열기
+Ctrl + ` : 터미널 열기
