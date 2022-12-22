@@ -47,3 +47,18 @@ for (key in user) {
 user4 = {}
 Object.assign(user4, user)
 user4 = Object.assign({}, user)
+
+
+// prototype? 유전자다, https://www.youtube.com/watch?v=wUgmzvExL_E
+function 기계() {
+    this.q = 'strike';
+    this.w = 'snowball';
+}
+기계.prototype.name = 'Park';   //부모만 {name:'Park}를 가진다
+
+let nunu = new 기계()
+console.log(nunu.name)  //nunu가 name를 가지고 있지 않으면 -> nunu  부모를 확인한다 -> 없으면 부모의 부모까지 확인
+
+let arrays = [4, 2, 1]
+
+Array.prototype.함수 = function(){} //해주면 모든 어레이에서 설정한 함수 사용 가능할까?
