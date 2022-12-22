@@ -21,3 +21,20 @@ Ctrl + Shift + W : 윈도우 닫기
 Ctrl + P : 폴더/ 워크 스페이스 내의 파일 열기
 Ctrl + , : 설정화면 열기
 Ctrl + ` : 터미널 열기
+
+
+
+
+
+=============================================================================================
+vscode 필수 extension
+
+함수가 길 때 : 설정에서 stiky 기능 활성화
+
+1. Settings Sync : 깃헙에 vscode 설정 저장 및 동기화
+2. ESLint
+3. git lens
+4. import cost
+5. Multiple cursor case preserve
+6. codesnap
+7. Todo hightlight

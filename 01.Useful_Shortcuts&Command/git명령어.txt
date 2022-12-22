@@ -36,3 +36,9 @@ git patch 파일 만들고 적용하기
 
  patch 파일을 로컬의 unstaged 영역에 반영
   $ patch -p1[number] < [patch file name]
+  
+
+*수정사항 없애고 예전 커밋으로 이동 후 최신으로 땡기기
+ git clean -Xdf
+ git reset --hard HEAD~5
+ git pull

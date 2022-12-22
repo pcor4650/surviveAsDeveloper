@@ -1,0 +1,8 @@
+/	: 서치바 활성화
+T	: File Finder 활성화
+Ctrl + k	: Command Palette
+
+I	: Hide Comments
+L	: Jump to Line
+B	: Git Blame, 언제 누구에 의해 작성되었는지 확인 가능
+?	: Keyboard Shortcuts
